@@ -183,9 +183,9 @@ a:hover,a:focus,a.active{
   position: absolute;
   border-left: black 3.5px inset;
   width: 100%;
-  height: 43px;
-  margin-top: 8px;
-  top: 21%;
+  height: 72px;
+  top: -15px;
+  margin-left: 1px;
 }
 /*=====================================================================================
 02.		Default Margin and Padding
@@ -2266,9 +2266,9 @@ label.radios {
     position: absolute;
     border-left: black 3.5px inset;
     width: 100%;
-    height: 34px;
-    margin-top: 8px;
-    top: 38%;
+    height: 72px;
+    top: -15px;
+    margin-left: 1px;
   }
 }
 /*
@@ -2406,9 +2406,9 @@ label.radios {
     position: absolute;
     border-left: black 3.5px inset;
     width: 100%;
-    height: 34px;
-    margin-top: 8px;
-    top: 38%;
+    height: 72px;
+    top: -15px;
+    margin-left: 1px;
   }
 }
 
@@ -2580,9 +2580,8 @@ label.radios {
     position: absolute;
     border-left: black 3.5px inset;
     width: 100%;
-    height: 34px;
-    margin-top: 8px;
-    top: 38%;
+    height: 72px;
+    top: -15px;
     margin-left: 1px;
   }
 }
@@ -2750,9 +2749,8 @@ label.radios {
     position: absolute;
     border-left: black 3.5px inset;
     width: 100%;
-    height: 34px;
-    margin-top: 8px;
-    top: 38%;
+    height: 72px;
+    top: -15px;
     margin-left: 1px;
   }
 }
