@@ -2839,4 +2839,22 @@ label.radios {
   .hover_overlay .border strong {
       font-size: 15px;
   }
+  .custom-logo-div {
+    position: absolute;
+    border-left: black 3.5px inset;
+    border-bottom: black 4.5px inset;
+    width: 100%;
+    height: 30px;
+    margin-left: 158.5px;
+    margin-top: 10px;
+    top: 35%;
+  }
+  .custom-logo-div-l {
+    position: absolute;
+    border-left: black 3.5px inset;
+    width: 100%;
+    height: 72px;
+    top: -15px;
+    margin-left: 1px;
+  }
 }
