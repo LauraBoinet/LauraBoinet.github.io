@@ -204,6 +204,9 @@ a:hover,a:focus,a.active{
   margin-left: 9px;
   bottom: 8%;
 }
+.custom-exp {
+  min-height: 397px;
+}
 /*=====================================================================================
 02.		Default Margin and Padding
 ========================================================================================*/
@@ -2393,6 +2396,7 @@ label.radios {
     margin-left: 166px;
     margin-top: 10px;
     top: 35%;
+    z-index: 1;
   }
   .custom-logo-div-l {
     position: absolute;
@@ -2417,6 +2421,7 @@ label.radios {
     height: 30px;
     margin-left: 9px;
     bottom: 8%;
+    z-index: 1;
   }
 }
 
