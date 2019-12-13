@@ -187,6 +187,15 @@ a:hover,a:focus,a.active{
   top: -15px;
   margin-left: 1px;
 }
+.custom-logo-div-bt {
+  position: absolute;
+  border-top: #000 3.5px inset;
+  width: 13px;
+  height: 30px;
+  margin-left: 154px;
+  margin-top: 7px;
+  top: 21%;
+}
 /*=====================================================================================
 02.		Default Margin and Padding
 ========================================================================================*/
@@ -2384,6 +2393,15 @@ label.radios {
     height: 72px;
     top: -15px;
     margin-left: 1px;
+  }
+  .custom-logo-div-bt {
+    position: absolute;
+    border-top: #000 3.5px inset;
+    width: 13px;
+    height: 30px;
+    margin-left: 154px;
+    margin-top: 7px;
+    top: 35%;
   }
 }
 
