@@ -2245,31 +2245,6 @@ label.radios {
   .share_post h4{
     line-height: 31px;
   }
-  .custom-logo-p {
-    bottom: 0px;
-    line-height: 1;
-    position: absolute;
-    font-size: 20.45px;
-    color: #000;
-  }
-  .custom-logo-div {
-    position: absolute;
-    border-left: #000 3.5px inset;
-    border-bottom: #000 4.5px inset;
-    width: 100%;
-    height: 30px;
-    margin-left: 158px;
-    margin-top: 10px;
-    top: 21%;
-  }
-  .custom-logo-div-l {
-    position: absolute;
-    border-left: #000 3.5px inset;
-    width: 100%;
-    height: 72px;
-    top: -15px;
-    margin-left: 1px;
-  }
 }
 /*
 // Medium devices (tablets, 768px and up)
@@ -2566,24 +2541,6 @@ label.radios {
   .reply_form{
     margin-bottom: 60px;
   }
-  .custom-logo-div {
-    position: absolute;
-    border-left: #000 3.5px inset;
-    border-bottom: #000 4.5px inset;
-    width: 100%;
-    height: 30px;
-    margin-left: 158px;
-    margin-top: 10px;
-    top: 35%;
-  }
-  .custom-logo-div-l {
-    position: absolute;
-    border-left: #000 3.5px inset;
-    width: 100%;
-    height: 72px;
-    top: -15px;
-    margin-left: 1px;
-  }
 }
 
 /*
@@ -2735,24 +2692,6 @@ label.radios {
   .replied{
     margin-left: 35px;
   }
-  .custom-logo-div {
-    position: absolute;
-    border-left: #000 3.5px inset;
-    border-bottom: #000 4.5px inset;
-    width: 100%;
-    height: 30px;
-    margin-left: 158px;
-    margin-top: 10px;
-    top: 35%;
-  }
-  .custom-logo-div-l {
-    position: absolute;
-    border-left: #000 3.5px inset;
-    width: 100%;
-    height: 72px;
-    top: -15px;
-    margin-left: 1px;
-  }
 }
 
 /* 
@@ -2838,23 +2777,5 @@ label.radios {
   }
   .hover_overlay .border strong {
       font-size: 15px;
-  }
-  .custom-logo-div {
-    position: absolute;
-    border-left: #000 3.5px inset;
-    border-bottom: #000 4.5px inset;
-    width: 100%;
-    height: 30px;
-    margin-left: 158px;
-    margin-top: 10px;
-    top: 35%;
-  }
-  .custom-logo-div-l {
-    position: absolute;
-    border-left: #000 3.5px inset;
-    width: 100%;
-    height: 72px;
-    top: -15px;
-    margin-left: 1px;
   }
 }
