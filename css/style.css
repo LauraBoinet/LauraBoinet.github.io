@@ -168,6 +168,7 @@ a:hover,a:focus,a.active{
   position: absolute;
   font-size: 20.45px;
   color: #000;
+  margin-left: 20px;
 }
 .custom-logo-div {
   position: absolute;
@@ -175,26 +176,33 @@ a:hover,a:focus,a.active{
   border-bottom: #000 4.5px inset;
   width: 100%;
   height: 30px;
-  margin-left: 158px;
+  margin-left: 166px;
   margin-top: 10px;
   top: 21%;
 }
 .custom-logo-div-l {
   position: absolute;
   border-left: #000 3.5px inset;
-  width: 100%;
   height: 72px;
   top: -15px;
-  margin-left: 1px;
+  margin-left: 6px;
 }
 .custom-logo-div-bt {
   position: absolute;
   border-top: #000 3.5px inset;
   width: 13px;
   height: 30px;
-  margin-left: 154px;
+  margin-left: 161.5px;
   margin-top: 7px;
   top: 21%;
+}
+.custom-logo-div-lb {
+  position: absolute;
+  border-bottom: #000 3.5px inset;
+  width: 8px;
+  height: 30px;
+  margin-left: 9px;
+  bottom: 8%;
 }
 /*=====================================================================================
 02.		Default Margin and Padding
@@ -2382,26 +2390,33 @@ label.radios {
     border-bottom: #000 4.5px inset;
     width: 100%;
     height: 30px;
-    margin-left: 158px;
+    margin-left: 166px;
     margin-top: 10px;
     top: 35%;
   }
   .custom-logo-div-l {
     position: absolute;
     border-left: #000 3.5px inset;
-    width: 100%;
     height: 72px;
     top: -15px;
-    margin-left: 1px;
+    margin-left: 6px;
   }
   .custom-logo-div-bt {
     position: absolute;
     border-top: #000 3.5px inset;
     width: 13px;
     height: 30px;
-    margin-left: 154px;
+    margin-left: 161.5px;
     margin-top: 7px;
     top: 35%;
+  }
+  .custom-logo-div-lb {
+    position: absolute;
+    border-bottom: #000 3.5px inset;
+    width: 8px;
+    height: 30px;
+    margin-left: 9px;
+    bottom: 8%;
   }
 }
 
