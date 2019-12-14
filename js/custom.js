@@ -297,7 +297,7 @@ if($contact.length){
                 console.log(data);
                 console.log(data[0].value);
                 Email.send({
-                  SecureToken : "7f5dbaa6-afd0-4cf4-b94f-e2b2984f57cf",
+                  SecureToken : "501d983f-21f5-4687-a224-0ca8cf70cc6f",
                   To : "balan.kylian@live.fr",
                   From : data[1].value,
                   Subject :data[2].value,
@@ -307,7 +307,6 @@ if($contact.length){
               );
               return false;
             }
-            // laurab-website@outlook.com
     });
   }
 
