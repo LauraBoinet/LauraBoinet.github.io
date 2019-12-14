@@ -302,10 +302,12 @@ if($contact.length){
                   From : "balan.kylian22@gmail.com",
                   Subject :data[2].value,
                   Body : data[3].value
+              }).catch(function(error) {
+                console.log(error);
+                return false;
               }).then(
-                message => alert(message)
+                true
               );
-                return false; // required to block normal submit since you used ajax
             }
     });
   }
