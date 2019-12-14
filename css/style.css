@@ -183,9 +183,9 @@ a:hover,a:focus,a.active{
 .custom-logo-div-l {
   position: absolute;
   border-left: #000 3.5px inset;
-  height: 72px;
-  top: -15px;
+  height: 44px;
   margin-left: 6px;
+  bottom: 10%;
 }
 .custom-logo-div-bt {
   position: absolute;
@@ -2401,8 +2401,8 @@ label.radios {
   .custom-logo-div-l {
     position: absolute;
     border-left: #000 3.5px inset;
-    height: 72px;
-    top: -15px;
+    height: 55px;
+    bottom: 8%;
     margin-left: 6px;
   }
   .custom-logo-div-bt {
