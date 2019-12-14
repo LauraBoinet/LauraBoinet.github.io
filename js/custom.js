@@ -295,8 +295,8 @@ if($contact.length){
               $('#send').attr({'disabled' : 'true', 'value' : 'Sending...' });
               var data = $(form).serializeArray();
               Email.send({
-                SecureToken : "501d983f-21f5-4687-a224-0ca8cf70cc6f",
-                To : "laura_boinet@outlook.fr",
+                SecureToken : "2a594742-e1b1-474e-b13d-4ff2412fa1c2",
+                To : "kylian.balan@epitech.eu",
                 From : data[1].value,
                 Subject :data[2].value,
                 Body : data[3].value
