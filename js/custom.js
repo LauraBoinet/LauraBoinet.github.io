@@ -299,7 +299,7 @@ if($contact.length){
                 Email.send({
                   SecureToken : "1d7bd675-63a9-46f7-9d33-2a38b7988f0f",
                   To : "balan.kylian@live.fr",
-                  From : data[1].value,
+                  From : "balan.kylian22@gmail.com",
                   Subject :data[2].value,
                   Body : data[3].value
               }).then(
