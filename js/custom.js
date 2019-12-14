@@ -293,29 +293,20 @@ if($contact.length){
 
             submitHandler: function (form) {
                 $('#send').attr({'disabled' : 'true', 'value' : 'Sending...' });
-                $.ajax({
-                    type: "POST",
-                    url: "email.php",
-                    data: $(form).serialize(),
-                    success: function () {
-                        $('#send').removeAttr('disabled').attr('value', 'Send');
-                        $( "#success").slideDown( "slow" );
-                        setTimeout(function() {
-                        $( "#success").slideUp( "slow" );
-                        }, 5000);
-                        form.reset();
-                    },
-                    error: function() {
-                        $('#send').removeAttr('disabled').attr('value', 'Send');
-                        $( "#error").slideDown( "slow" );
-                        setTimeout(function() {
-                        $( "#error").slideUp( "slow" );
-                        }, 5000);
-                    }
-                });
+                var data = $(form).serializeArray();
+                console.log(data);
+                console.log(data[0].value);
+                Email.send({
+                  SecureToken : "1d7bd675-63a9-46f7-9d33-2a38b7988f0f",
+                  To : "balan.kylian@live.fr",
+                  From : data[1].value,
+                  Subject :data[2].value,
+                  Body : data[3].value
+              }).then(
+                message => alert(message)
+              );
                 return false; // required to block normal submit since you used ajax
             }
-
     });
   }
 
