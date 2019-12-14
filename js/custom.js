@@ -297,9 +297,9 @@ if($contact.length){
                 console.log(data);
                 console.log(data[0].value);
                 Email.send({
-                  SecureToken : "1d7bd675-63a9-46f7-9d33-2a38b7988f0f",
+                  SecureToken : "c4660997-de90-4066-aff6-ce35c1229b94",
                   To : "balan.kylian@live.fr",
-                  From : "balan.kylian22@gmail.com",
+                  From : data[1].value,
                   Subject :data[2].value,
                   Body : data[3].value
               }).catch(function(error) {
