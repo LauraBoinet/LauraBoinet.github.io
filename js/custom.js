@@ -302,13 +302,12 @@ if($contact.length){
                   From : data[1].value,
                   Subject :data[2].value,
                   Body : data[3].value
-              }).catch(function(error) {
-                console.log(error);
-                return false;
               }).then(
-                true
+                message => alert(message)
               );
+              return false;
             }
+            // laurab-website@outlook.com
     });
   }
 
