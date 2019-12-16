@@ -292,29 +292,10 @@ if($contact.length){
             },
 
             submitHandler: (form) => {
-              $('#send').attr({'disabled' : 'true', 'value' : 'Sending...' });
               var data = $(form).serializeArray();
-              Email.send({
-                SecureToken : "2a594742-e1b1-474e-b13d-4ff2412fa1c2",
-                To : "kylian.balan@epitech.eu",
-                From : data[1].value,
-                Subject :data[2].value,
-                Body : data[3].value
-            }).catch(() => {
-              $('#send').removeAttr('disabled').attr('value', 'Send');
-              $( "#error").slideDown( "slow" );
-              setTimeout(function() {
-              $( "#error").slideUp( "slow" );
-              }, 5000);
-            }).then(() => {
-                  $('#send').removeAttr('disabled').attr('value', 'Send');
-                  $( "#success").slideDown( "slow" );
-                  setTimeout(function() {
-                  $( "#success").slideUp( "slow" );
-                  }, 5000);
-                  form.reset();
-              });
-            return false;
+              var link = "mailto:laura_boinet@outlook.fr" + "?subject=" + escape(data[2].value) + "&body=" + escape(data[3].value);
+              window.location.href = link;
+              form.reset();
           }
     });
   }
