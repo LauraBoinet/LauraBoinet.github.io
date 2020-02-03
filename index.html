@@ -335,12 +335,12 @@
 							<div class="col-md-12">
 								<div class="filters mb_30 w-100 text-center">
 									<ul class="filter-tabs mx-auto d-inline-block">
-										<li class="active filter" data-role="button" data-filter="all">Tout</li>
-										<li class="filter" data-role="button" data-filter=".app">Application</li>
-										<li class="filter" data-role="button" data-filter=".signa">Signalitique</li>
-										<li class="filter" data-role="button" data-filter=".photo">Photographie</li>
+										<li class="active filter" data-role="button" data-filter=".app, .com, .photo, .dessin, .plv, .mise-lum">Tout</li> <!--change default filter in load.filter property of mixItUp class in plugin.js-->
+										<li class="filter" data-role="button" data-filter=".app, .app2">Application</li>
+										<li class="filter" data-role="button" data-filter=".com">Communication</li>
+										<li class="filter" data-role="button" data-filter=".photo, .photoHidden">Photographie</li>
 										<li class="filter" data-role="button" data-filter=".dessin">Dessin</li>
-										<li class="filter" data-role="button" data-filter=".plv">PLV</li>
+										<li class="filter" data-role="button" data-filter=".plv, .plvHidden">PLV</li>
 										<li class="filter" data-role="button" data-filter=".mise-lum">Mise en lumière</li>
 									</ul>
 								</div>
@@ -352,28 +352,43 @@
 								<div class="row">
 								  	<div class="column mix mix_all app mb_30 col-md-4 col-lg-4">
 										<div class="default-portfolio-item">
-											<a href="images/portfolio/app.jpg" data-fancybox="gallery">
-												<img src="images/portfolio/app.jpg" alt="image" />
+											<a href="images/portfolio/app/app.jpg" data-fancybox="gallery">
+												<img src="images/portfolio/app/app.jpg" alt="image" />
 												<div class="overlay-box">
 													<span><i class="fa fa-eye" aria-hidden="true"></i></span>
 													<div class="tag">
 														<ul>
-															<li>Application</li>
+															<li>Réalisation d'un projet pour Android permettant de contrôler un vélo électrique.</li>
 														</ul>
 													</div>
 												</div>
 											</a>
 										</div>
 									</div>
-									<div class="column mix mix_all signa mb_30 col-md-4 col-lg-4">
+									<div class="column mix mix_all app2 mb_30 col-md-4 col-lg-4">
 										<div class="default-portfolio-item">
-											<a href="images/portfolio/sign.jpg" data-fancybox="gallery">
-												<img src="images/portfolio/sign.jpg" alt="image" />
+											<a href="images/portfolio/app/app_menu.png" data-fancybox="gallery">
+												<img src="images/portfolio/app/app_menu.png" alt="image" />
 												<div class="overlay-box">
 													<span><i class="fa fa-eye" aria-hidden="true"></i></span>
 													<div class="tag">
 														<ul>
-															<li>Signalitique</li>
+															<li>Réalisation d'un projet pour Android permettant de contrôler un vélo électrique.</li>
+														</ul>
+													</div>
+												</div>
+											</a>
+										</div>
+									</div>
+									<div class="column mix mix_all com mb_30 col-md-4 col-lg-4">
+										<div class="default-portfolio-item">
+											<a href="images/portfolio/communication/sign.jpg" data-fancybox="gallery">
+												<img src="images/portfolio/communication/sign.jpg" alt="image" />
+												<div class="overlay-box">
+													<span><i class="fa fa-eye" aria-hidden="true"></i></span>
+													<div class="tag">
+														<ul>
+															<li>Création de deux panneaux de signalisation pour le château de Kerjean</li>
 														</ul>
 													</div>
 												</div>
@@ -382,13 +397,103 @@
 									</div>
 									<div class="column mix mix_all photo mb_30 col-md-4 col-lg-4">
 										<div class="default-portfolio-item">
-											<a href="images/portfolio/photo.jpg" data-fancybox="gallery">
-												<img src="images/portfolio/photo.jpg" alt="image" />
+											<a href="images/portfolio/photographie/photo_1.jpg" data-fancybox="gallery">
+												<img src="images/portfolio/photographie/photo_1.jpg" alt="image" />
 												<div class="overlay-box">
 													<span><i class="fa fa-eye" aria-hidden="true"></i></span>
 													<div class="tag">
 														<ul>
 															<li>Photographie</li>
+														</ul>
+													</div>
+												</div>
+											</a>
+										</div>
+									</div>
+									<div class="column mix mix_all photoHidden mb_30 col-md-4 col-lg-4">
+										<div class="default-portfolio-item">
+											<a href="images/portfolio/photographie/photo_2.jpg" data-fancybox="gallery">
+												<img src="images/portfolio/photographie/photo_2.jpg" alt="image" />
+												<div class="overlay-box">
+													<span><i class="fa fa-eye" aria-hidden="true"></i></span>
+													<div class="tag">
+														<ul>
+															<li>Seule, bidart plage</li>
+														</ul>
+													</div>
+												</div>
+											</a>
+										</div>
+									</div>
+									<div class="column mix mix_all photoHidden mb_30 col-md-4 col-lg-4">
+										<div class="default-portfolio-item">
+											<a href="images/portfolio/photographie/photo_3.jpg" data-fancybox="gallery">
+												<img src="images/portfolio/photographie/photo_3.jpg" alt="image" />
+												<div class="overlay-box">
+													<span><i class="fa fa-eye" aria-hidden="true"></i></span>
+													<div class="tag">
+														<ul>
+															<li>La vague approche, bidart</li>
+														</ul>
+													</div>
+												</div>
+											</a>
+										</div>
+									</div>
+									<div class="column mix mix_all photoHidden mb_30 col-md-4 col-lg-4">
+										<div class="default-portfolio-item">
+											<a href="images/portfolio/photographie/photo_4.jpg" data-fancybox="gallery">
+												<img src="images/portfolio/photographie/photo_4.jpg" alt="image" />
+												<div class="overlay-box">
+													<span><i class="fa fa-eye" aria-hidden="true"></i></span>
+													<div class="tag">
+														<ul>
+															<li>Saint pabu</li>
+														</ul>
+													</div>
+												</div>
+											</a>
+										</div>
+									</div>
+									<div class="column mix mix_all photoHidden mb_30 col-md-4 col-lg-4">
+										<div class="default-portfolio-item">
+											<a href="images/portfolio/photographie/photo_5.jpg" data-fancybox="gallery">
+												<img src="images/portfolio/photographie/photo_5.jpg" alt="image" />
+												<div class="overlay-box">
+													<span><i class="fa fa-eye" aria-hidden="true"></i></span>
+													<div class="tag">
+														<ul>
+															<li>Saint pabu</li>
+														</ul>
+													</div>
+												</div>
+											</a>
+										</div>
+									</div>
+									<div class="column mix mix_all photoHidden mb_30 col-md-4 col-lg-4">
+										<div class="default-portfolio-item">
+											<a href="images/portfolio/photographie/photo_6.jpg" data-fancybox="gallery">
+												<img src="images/portfolio/photographie/photo_6.jpg" alt="image" />
+												<div class="overlay-box">
+													<span><i class="fa fa-eye" aria-hidden="true"></i></span>
+													<div class="tag">
+														<ul>
+															<li>Saint pabu</li>
+														</ul>
+													</div>
+												</div>
+											</a>
+										</div>
+									</div>
+									<div class="column mix mix_all photoHidden mb_30 col-md-4 col-lg-4">
+										<div class="default-portfolio-item">
+											<a href="images/portfolio/photographie/photo_7.jpg" data-fancybox="gallery">
+												<img src="images/portfolio/photographie/photo_7.jpg" alt="image" />
+												<div class="overlay-box">
+													<span><i class="fa fa-eye" aria-hidden="true"></i></span>
+													<div class="tag">
+														<ul>
+															<li>Fréhel</li>
 														</ul>
 													</div>
 												</div>
@@ -403,7 +508,7 @@
 													<span><i class="fa fa-eye" aria-hidden="true"></i></span>
 													<div class="tag">
 														<ul>
-															<li>Dessin</li>
+															<li>Alaia surf club</li>
 														</ul>
 													</div>
 												</div>
@@ -412,13 +517,43 @@
 									</div>
 									<div class="column mix mix_all plv mb_30 col-md-4 col-lg-4">
 										<div class="default-portfolio-item">
-											<a href="images/portfolio/plv.jpg" data-fancybox="gallery">
-												<img src="images/portfolio/plv.jpg" alt="image" />
+											<a href="images/portfolio/plv/plv_1.jpg" data-fancybox="gallery">
+												<img src="images/portfolio/plv/plv_1.jpg" alt="image" />
 												<div class="overlay-box">
 													<span><i class="fa fa-eye" aria-hidden="true"></i></span>
 													<div class="tag">
 														<ul>
-															<li>PLV</li>
+															<li>Création d’un PLV comme support d’explication pour les différences entres les papiers et les cartons.</li>
+														</ul>
+													</div>
+												</div>
+											</a>
+										</div>
+									</div>
+									<div class="column mix mix_all plvHidden mb_30 col-md-4 col-lg-4">
+										<div class="default-portfolio-item">
+											<a href="images/portfolio/plv/plv_2.jpg" data-fancybox="gallery">
+												<img src="images/portfolio/plv/plv_2.jpg" alt="image" />
+												<div class="overlay-box">
+													<span><i class="fa fa-eye" aria-hidden="true"></i></span>
+													<div class="tag">
+														<ul>
+															<li>Création d'un logo pour une Newsletter.</li>
+														</ul>
+													</div>
+												</div>
+											</a>
+										</div>
+									</div>
+									<div class="column mix mix_all plvHidden mb_30 col-md-4 col-lg-4">
+										<div class="default-portfolio-item">
+											<a href="images/portfolio/plv/plv_3.png" data-fancybox="gallery">
+												<img src="images/portfolio/plv/plv_3.png" alt="image" />
+												<div class="overlay-box">
+													<span><i class="fa fa-eye" aria-hidden="true"></i></span>
+													<div class="tag">
+														<ul>
+															<li>Création d'un logo pour une Newsletter.</li>
 														</ul>
 													</div>
 												</div>
