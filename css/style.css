@@ -429,7 +429,7 @@ a:hover,a:focus,a.active{
   background-color: transparent;
 }
 .background1{
-  background-image: url(../images/fond_menu_2.jpg);
+  background-image: url(../images/background/home.jpg);
 }
 .background2{
     background: url(../images/background/motiv.jpg) no-repeat center fixed;
