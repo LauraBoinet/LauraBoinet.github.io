@@ -275,7 +275,7 @@ jQuery(document).ready(function($){
 			},
 			
 			load: {
-				filter: '.app, .com, .photo, .dessin, .plv, .mise-lum',
+				filter: '.app, .com, .photo, .dessin, .plv, .mise-lum, .man',
 				sort: false
 			},
 			
